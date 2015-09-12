@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>22DDE20C-1852-4CBF-BAFB-A5C14895C8D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NotificationClear</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E03793B9B65CBBA247276D96B0E80099AB3920ED</key>
+		<string>https://github.com/w0lfschild/NotificationClear.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NotificationClear.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E03793B9B65CBBA247276D96B0E80099AB3920ED</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/w0lfschild/NotificationClear.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E03793B9B65CBBA247276D96B0E80099AB3920ED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E03793B9B65CBBA247276D96B0E80099AB3920ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NotificationClear</string>
+		</dict>
+	</array>
+</dict>
+</plist>

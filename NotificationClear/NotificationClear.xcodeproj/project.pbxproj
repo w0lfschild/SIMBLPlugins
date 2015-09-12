@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB3EDF6C1B707F1200E96DC9 /* NotificationClear.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3EDF6A1B707F1200E96DC9 /* NotificationClear.m */; };
+		FB3EDF6D1B707F1200E96DC9 /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3EDF6B1B707F1200E96DC9 /* ZKSwizzle.m */; };
+		FB3EDF721B707FEF00E96DC9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB3EDF711B707FEF00E96DC9 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7B30BA11A9BA5E500B08F72 /* NotificationClear.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationClear.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3EDF691B707F1200E96DC9 /* ZKSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKSwizzle.h; path = NotificationClear/ZKSwizzle.h; sourceTree = SOURCE_ROOT; };
+		FB3EDF6A1B707F1200E96DC9 /* NotificationClear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationClear.m; path = NotificationClear/NotificationClear.m; sourceTree = SOURCE_ROOT; };
+		FB3EDF6B1B707F1200E96DC9 /* ZKSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKSwizzle.m; path = NotificationClear/ZKSwizzle.m; sourceTree = SOURCE_ROOT; };
+		FB3EDF711B707FEF00E96DC9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NotificationClear/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7B30B9E1A9BA5E500B08F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7B30B981A9BA5E500B08F72 = {
+			isa = PBXGroup;
+			children = (
+				A7B30BA31A9BA5E500B08F72 /* NotificationClear */,
+				A7B30BA21A9BA5E500B08F72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B30BA21A9BA5E500B08F72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B30BA11A9BA5E500B08F72 /* NotificationClear.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B30BA31A9BA5E500B08F72 /* NotificationClear */ = {
+			isa = PBXGroup;
+			children = (
+				FB3EDF6E1B707F1D00E96DC9 /* ZKSwizzle */,
+				FB3EDF6A1B707F1200E96DC9 /* NotificationClear.m */,
+				FB3EDF711B707FEF00E96DC9 /* Info.plist */,
+			);
+			name = NotificationClear;
+			path = DockTests;
+			sourceTree = "<group>";
+		};
+		FB3EDF6E1B707F1D00E96DC9 /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				FB3EDF691B707F1200E96DC9 /* ZKSwizzle.h */,
+				FB3EDF6B1B707F1200E96DC9 /* ZKSwizzle.m */,
+			);
+			name = ZKSwizzle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7B30BA01A9BA5E500B08F72 /* NotificationClear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B30BA81A9BA5E500B08F72 /* Build configuration list for PBXNativeTarget "NotificationClear" */;
+			buildPhases = (
+				A7B30B9D1A9BA5E500B08F72 /* Sources */,
+				A7B30B9E1A9BA5E500B08F72 /* Frameworks */,
+				A7B30B9F1A9BA5E500B08F72 /* Resources */,
+				A7176F0D1A9BECDA001EA471 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationClear;
+			productName = DockTests;
+			productReference = A7B30BA11A9BA5E500B08F72 /* NotificationClear.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B30B991A9BA5E500B08F72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Carl Henderson";
+				TargetAttributes = {
+					A7B30BA01A9BA5E500B08F72 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A7B30B9C1A9BA5E500B08F72 /* Build configuration list for PBXProject "NotificationClear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7B30B981A9BA5E500B08F72;
+			productRefGroup = A7B30BA21A9BA5E500B08F72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7B30BA01A9BA5E500B08F72 /* NotificationClear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7B30B9F1A9BA5E500B08F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3EDF721B707FEF00E96DC9 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7176F0D1A9BECDA001EA471 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n# /usr/local/bin/terminal-notifier -message \"Test message 1\"\n# /usr/local/bin/terminal-notifier -message \"Test message 2\"\n# /usr/local/bin/terminal-notifier -message \"Test message 3\"\n# /usr/local/bin/terminal-notifier -message \"Test message 4\"\n# /usr/local/bin/terminal-notifier -message \"Test message 5\"\n\ncp -Rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME}.bundle\" /Library/Application\\ Support/SIMBL/Plugins\nkillall -KILL NotificationCenter\nsleep 1\nosascript -e 'tell application \"NotificationCenter\" to inject SIMBL into Snow Leopard'\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7B30B9D1A9BA5E500B08F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3EDF6C1B707F1200E96DC9 /* NotificationClear.m in Sources */,
+				FB3EDF6D1B707F1200E96DC9 /* ZKSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7B30BA61A9BA5E500B08F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7B30BA71A9BA5E500B08F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7B30BA91A9BA5E500B08F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NotificationClear/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chuckhendo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NotificationClear;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DockTests/DockTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A7B30BAA1A9BA5E500B08F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NotificationClear/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chuckhendo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NotificationClear;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DockTests/DockTests-Bridging-Header.h";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7B30B9C1A9BA5E500B08F72 /* Build configuration list for PBXProject "NotificationClear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B30BA61A9BA5E500B08F72 /* Debug */,
+				A7B30BA71A9BA5E500B08F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B30BA81A9BA5E500B08F72 /* Build configuration list for PBXNativeTarget "NotificationClear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B30BA91A9BA5E500B08F72 /* Debug */,
+				A7B30BAA1A9BA5E500B08F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7B30B991A9BA5E500B08F72 /* Project object */;
+}
