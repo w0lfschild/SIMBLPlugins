@@ -14,8 +14,9 @@
 1. Install [SIMBL](http://www.culater.net/software/SIMBL/SIMBL.php)
 2. Download NotificationClear bundle
 3. Unzip download
-4. Copy to ``/Library/Application Support/SIMBL/Plugins``
+4. Copy to `/Library/Application Support/SIMBL/Plugins`
 5. Open terminal and run these commands
+6.
  
 
         killall NotificationCenter
