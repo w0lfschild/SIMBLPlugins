@@ -18,5 +18,5 @@
 5. Open terminal and run these commands
  
 
--        killall NotificationCenter
+        killall NotificationCenter
         osascript -e 'tell application "NotificationCenter" to inject SIMBL into Snow Leopard'
