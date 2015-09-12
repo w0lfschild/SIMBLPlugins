@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7B84221BA4B7C3005398D1 /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7B841F1BA4B7C3005398D1 /* ZKSwizzle.m */; };
+		FB7B84231BA4B7C3005398D1 /* Load.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7B84201BA4B7C3005398D1 /* Load.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB7B841C1BA4B7C3005398D1 /* Load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Load.h; path = _fullscreenER/Load.h; sourceTree = "<group>"; };
+		FB7B841E1BA4B7C3005398D1 /* ZKSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		FB7B841F1BA4B7C3005398D1 /* ZKSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+		FB7B84201BA4B7C3005398D1 /* Load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Load.m; path = _fullscreenER/Load.m; sourceTree = "<group>"; };
+		FB7B84211BA4B7C3005398D1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = _fullscreenER/Info.plist; sourceTree = "<group>"; };
+		FBFEDC201BA261DE009B4689 /* _fullscreenER.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _fullscreenER.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBFEDC1D1BA261DE009B4689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB7B841B1BA4B7B4005398D1 /* _fullscreenER */ = {
+			isa = PBXGroup;
+			children = (
+				FB7B841D1BA4B7C3005398D1 /* ZKSwizzle */,
+				FB7B841C1BA4B7C3005398D1 /* Load.h */,
+				FB7B84201BA4B7C3005398D1 /* Load.m */,
+				FB7B84211BA4B7C3005398D1 /* Info.plist */,
+			);
+			name = _fullscreenER;
+			sourceTree = "<group>";
+		};
+		FB7B841D1BA4B7C3005398D1 /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				FB7B841E1BA4B7C3005398D1 /* ZKSwizzle.h */,
+				FB7B841F1BA4B7C3005398D1 /* ZKSwizzle.m */,
+			);
+			name = ZKSwizzle;
+			path = _fullscreenER/ZKSwizzle;
+			sourceTree = "<group>";
+		};
+		FBFEDC171BA261DE009B4689 = {
+			isa = PBXGroup;
+			children = (
+				FB7B841B1BA4B7B4005398D1 /* _fullscreenER */,
+				FBFEDC211BA261DE009B4689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBFEDC211BA261DE009B4689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBFEDC201BA261DE009B4689 /* _fullscreenER.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBFEDC1F1BA261DE009B4689 /* _fullscreenER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFEDC261BA261DF009B4689 /* Build configuration list for PBXNativeTarget "_fullscreenER" */;
+			buildPhases = (
+				FBFEDC1C1BA261DE009B4689 /* Sources */,
+				FBFEDC1D1BA261DE009B4689 /* Frameworks */,
+				FBFEDC1E1BA261DE009B4689 /* Resources */,
+				FBFEDC301BA27E46009B4689 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = _fullscreenER;
+			productName = _sphook;
+			productReference = FBFEDC201BA261DE009B4689 /* _fullscreenER.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBFEDC181BA261DE009B4689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Wolfgang Baird";
+				TargetAttributes = {
+					FBFEDC1F1BA261DE009B4689 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = FBFEDC1B1BA261DE009B4689 /* Build configuration list for PBXProject "_fullscreenER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBFEDC171BA261DE009B4689;
+			productRefGroup = FBFEDC211BA261DE009B4689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBFEDC1F1BA261DE009B4689 /* _fullscreenER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBFEDC1E1BA261DE009B4689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBFEDC301BA27E46009B4689 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -Rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME}.bundle\" /Library/Application\\ Support/SIMBL/Plugins";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBFEDC1C1BA261DE009B4689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7B84221BA4B7C3005398D1 /* ZKSwizzle.m in Sources */,
+				FB7B84231BA4B7C3005398D1 /* Load.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBFEDC241BA261DF009B4689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FBFEDC251BA261DF009B4689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBFEDC271BA261DF009B4689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = _fullscreenER/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.w0lf.-sphook";
+				PRODUCT_NAME = _fullscreenER;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FBFEDC281BA261DF009B4689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = _fullscreenER/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.w0lf.-sphook";
+				PRODUCT_NAME = _fullscreenER;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBFEDC1B1BA261DE009B4689 /* Build configuration list for PBXProject "_fullscreenER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFEDC241BA261DF009B4689 /* Debug */,
+				FBFEDC251BA261DF009B4689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFEDC261BA261DF009B4689 /* Build configuration list for PBXNativeTarget "_fullscreenER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFEDC271BA261DF009B4689 /* Debug */,
+				FBFEDC281BA261DF009B4689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBFEDC181BA261DE009B4689 /* Project object */;
+}
