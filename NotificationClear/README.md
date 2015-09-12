@@ -15,9 +15,9 @@
 2. Download NotificationClear bundle
 3. Unzip download
 4. Copy to `/Library/Application Support/SIMBL/Plugins`
-5. Open terminal and run these commands
-6.
+5. Open terminal and run these commands    
+
  
 
-        killall NotificationCenter
-        osascript -e 'tell application "NotificationCenter" to inject SIMBL into Snow Leopard'
+`killall NotificationCenter`    
+`osascript -e 'tell application "NotificationCenter" to inject SIMBL into Snow Leopard'`
