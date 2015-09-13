@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4510" systemVersion="13A598" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1050" defaultVersion="1080" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4510"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="Afloat">
+            <connections>
+                <outlet property="_menuWithItems" destination="1" id="12"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <menu id="1">
+            <items>
+                <menuItem title="Keep Afloat" keyEquivalent="a" id="2">
+                    <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                    <connections>
+                        <action selector="toggleAlwaysOnTop:" target="-2" id="13"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Transparency" id="5">
+                    <menu key="submenu" title="Transparency" id="6">
+                        <items>
+                            <menuItem title="Translucent" keyEquivalent="1" id="7">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="makeTranslucent:" target="-2" id="14"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Opaque" keyEquivalent="0" id="9">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="makeOpaque:" target="-2" id="15"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Make Less Transparent" keyEquivalent="" id="11">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="makeLessTransparent:" target="-2" id="16"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Make More Transparent" keyEquivalent="" id="10">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="makeMoreTransparent:" target="-2" id="17"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Turn Overlays Back to Normal" id="19">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="disableAllOverlays:" target="-2" id="20"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Focus Follows Mouse" keyEquivalent="F" id="eIg-EB-FkF">
+                    <modifierMask key="keyEquivalentModifierMask" shift="YES" control="YES" command="YES"/>
+                    <connections>
+                        <action selector="toggleFocusFollowsMouse:" target="-2" id="unm-ml-z2e"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="8">
+                    <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                </menuItem>
+                <menuItem title="Adjust Effects" id="4">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="showAdjustEffectsPanel:" target="-2" id="18"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="21"/>
+                <menuItem title="Show Window's File in Finder" keyEquivalent="" id="22">
+                    <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                    <connections>
+                        <action selector="showWindowFileInFinder:" target="-2" id="23"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>
