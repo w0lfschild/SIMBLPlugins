@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663AC3751969BBFA007E3F36 /* darkdock.m in Sources */ = {isa = PBXBuildFile; fileRef = 663AC3741969BBFA007E3F36 /* darkdock.m */; };
+		FB7B84281BA4FD04005398D1 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B84261BA4FD04005398D1 /* fishhook.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		663AC3621969BB96007E3F36 /* DarkDock.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkDock.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		663AC3691969BB96007E3F36 /* DarkDock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DarkDock-Info.plist"; sourceTree = "<group>"; };
+		663AC36B1969BB96007E3F36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		663AC3741969BBFA007E3F36 /* darkdock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = darkdock.m; sourceTree = "<group>"; };
+		FB7B84261BA4FD04005398D1 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		FB7B84271BA4FD04005398D1 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		663AC35F1969BB96007E3F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		663AC3591969BB96007E3F36 = {
+			isa = PBXGroup;
+			children = (
+				663AC3671969BB96007E3F36 /* DarkDock */,
+				663AC3631969BB96007E3F36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		663AC3631969BB96007E3F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				663AC3621969BB96007E3F36 /* DarkDock.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		663AC3671969BB96007E3F36 /* DarkDock */ = {
+			isa = PBXGroup;
+			children = (
+				663AC3681969BB96007E3F36 /* Supporting Files */,
+				FB7B84251BA4FD04005398D1 /* Fishhook */,
+				663AC3741969BBFA007E3F36 /* darkdock.m */,
+			);
+			path = DarkDock;
+			sourceTree = "<group>";
+		};
+		663AC3681969BB96007E3F36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				663AC3691969BB96007E3F36 /* DarkDock-Info.plist */,
+				663AC36A1969BB96007E3F36 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB7B84251BA4FD04005398D1 /* Fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				FB7B84261BA4FD04005398D1 /* fishhook.c */,
+				FB7B84271BA4FD04005398D1 /* fishhook.h */,
+			);
+			path = Fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		663AC3611969BB96007E3F36 /* DarkDock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663AC3701969BB96007E3F36 /* Build configuration list for PBXNativeTarget "DarkDock" */;
+			buildPhases = (
+				663AC35E1969BB96007E3F36 /* Sources */,
+				663AC35F1969BB96007E3F36 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkDock;
+			productName = DarkDock;
+			productReference = 663AC3621969BB96007E3F36 /* DarkDock.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		663AC35A1969BB96007E3F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Adam Bell";
+			};
+			buildConfigurationList = 663AC35D1969BB96007E3F36 /* Build configuration list for PBXProject "DarkDock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 663AC3591969BB96007E3F36;
+			productRefGroup = 663AC3631969BB96007E3F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				663AC3611969BB96007E3F36 /* DarkDock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		663AC35E1969BB96007E3F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7B84281BA4FD04005398D1 /* fishhook.c in Sources */,
+				663AC3751969BBFA007E3F36 /* darkdock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		663AC36A1969BB96007E3F36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				663AC36B1969BB96007E3F36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		663AC36E1969BB96007E3F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		663AC36F1969BB96007E3F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		663AC3711969BB96007E3F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				DEPLOYMENT_LOCATION = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "DarkDock/DarkDock-Info.plist";
+				INSTALL_PATH = "\"/Library/Application Support/SIMBL/Plugins\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.adambell.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		663AC3721969BB96007E3F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				DEPLOYMENT_LOCATION = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "DarkDock/DarkDock-Info.plist";
+				INSTALL_PATH = "\"/Library/Application Support/SIMBL/Plugins\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.adambell.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		663AC35D1969BB96007E3F36 /* Build configuration list for PBXProject "DarkDock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663AC36E1969BB96007E3F36 /* Debug */,
+				663AC36F1969BB96007E3F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663AC3701969BB96007E3F36 /* Build configuration list for PBXNativeTarget "DarkDock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663AC3711969BB96007E3F36 /* Debug */,
+				663AC3721969BB96007E3F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 663AC35A1969BB96007E3F36 /* Project object */;
+}
