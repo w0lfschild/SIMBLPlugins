@@ -1,7 +1,10 @@
 # SIMBLPlugins:
 
 A collection of SIMBL plugins. Some written by myself, some by others.    
-All plugins are compiled and ready to be placed in SIMBL plugin folder.
+All plugins are compiled and ready to be placed in SIMBL plugin folder.    
+All plugins also have source code avilible here on GitHub.    
+SIMBL must be forced to load plugins into System Appliactions. Example for doing so:    
+- `osascript -e "tell application \"NotificationCenter\" to inject SIMBL into Snow Leopard"`
 
 # Downloads:
 
