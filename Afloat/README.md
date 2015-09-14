@@ -1,6 +1,6 @@
 # Afloat - [Download](https://github.com/w0lfschild/SIMBLPlugins/raw/master/Afloat/Afloat.zip)
 
-![Preview](preview.png)
+![Preview](Afloat.png)
 
 # Information:
 
