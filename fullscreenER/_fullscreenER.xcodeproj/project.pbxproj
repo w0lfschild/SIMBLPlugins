@@ -78,7 +78,7 @@
 				FBFEDC1C1BA261DE009B4689 /* Sources */,
 				FBFEDC1D1BA261DE009B4689 /* Frameworks */,
 				FBFEDC1E1BA261DE009B4689 /* Resources */,
-				FBFEDC301BA27E46009B4689 /* ShellScript */,
+				FBFEDC301BA27E46009B4689 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -131,13 +131,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		FBFEDC301BA27E46009B4689 /* ShellScript */ = {
+		FBFEDC301BA27E46009B4689 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
