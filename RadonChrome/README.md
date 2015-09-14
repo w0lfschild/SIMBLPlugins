@@ -1,5 +1,7 @@
 # RadonChrome - [Download](https://github.com/w0lfschild/SIMBLPlugins/raw/master/RadonChrome/RadonChrome.zip)
 
+![Preview](RadonChrome.png)
+
 # Information:
 
 - Designed for Chrome 40+
