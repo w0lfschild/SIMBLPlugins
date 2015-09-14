@@ -1,4 +1,4 @@
-# SIMBLInstaller - [Download](https://github.com/w0lfschild/SIMBLPlugins/raw/master/_SIMBLInstaller/_SIMBLInstaller.zip)
+# SIMBLInstaller - [Download](https://github.com/w0lfschild/SIMBLPlugins/raw/master/SIMBLInstaller/SIMBLInstaller.zip)
 
 # Information:
 
@@ -16,7 +16,7 @@
 
 # Installation:
 
-1. Download _SIMBLInstaller
-2. Unzip _SIMBLInstaller
+1. Download SIMBLInstaller
+2. Unzip SIMBLInstaller
 3. Right click "SIMBL Installer" and chose open
 4. Enter admin password to complete installation
