@@ -1,5 +1,7 @@
 # NotificationClear - [Download](https://github.com/w0lfschild/SIMBLPlugins/raw/master/NotificationClear/NotificationClear.zip)
 
+![Preview](NotificationClear.png)
+
 # Information:
 
 - Designed for 10.9+
