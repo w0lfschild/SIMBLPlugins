@@ -13,7 +13,7 @@
 
 # Installation:
 
-1. Install [SIMBL](http://www.culater.net/software/SIMBL/SIMBL.php)
+1. Install [SIMBL](https://github.com/w0lfschild/SIMBLPlugins/tree/master/SIMBLInstaller)
 2. Download NotificationClear bundle
 3. Unzip download
 4. Copy to `/Library/Application Support/SIMBL/Plugins`
