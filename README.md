@@ -14,3 +14,5 @@ SIMBL must be forced to load plugins into System Appliactions. Example for doing
 - [fullscreenER](https://github.com/w0lfschild/SIMBLPlugins/raw/master/fullscreenER/_fullscreenER.zip)
 - [NotificationClear](https://github.com/w0lfschild/SIMBLPlugins/raw/master/NotificationClear/NotificationClear.zip)
 - [RadonChrome](https://github.com/w0lfschild/SIMBLPlugins/raw/master/RadonChrome/RadonChrome.zip)
+- [safariSoda](https://github.com/w0lfschild/SIMBLPlugins/raw/master/safariSoda/safariSoda.zip)
+- [zestyWin](https://github.com/w0lfschild/SIMBLPlugins/raw/master/zestyWin/zestyWin.zip)
