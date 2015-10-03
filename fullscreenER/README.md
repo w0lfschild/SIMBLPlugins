@@ -15,7 +15,7 @@
 
 # Installation:
 
-1. Install SIMBL
+1. Install [SIMBL](https://github.com/w0lfschild/SIMBLPlugins/tree/master/SIMBLInstaller)
 2. Download _fullscreenER bundle
 3. Unzip download
 4. Copy to ``/Library/Application Support/SIMBL/Plugins``
