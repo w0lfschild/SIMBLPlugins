@@ -82,6 +82,7 @@
 				652126701A7426E100A608D6 /* Sources */,
 				652126711A7426E100A608D6 /* Frameworks */,
 				652126721A7426E100A608D6 /* Resources */,
+				FBF10C0E1BAA0FB100ED1C50 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -98,7 +99,7 @@
 		6521266C1A7426E100A608D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Preston Mueller";
 				TargetAttributes = {
 					652126731A7426E100A608D6 = {
@@ -133,6 +134,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FBF10C0E1BAA0FB100ED1C50 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -Rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME}.bundle\" /Library/Application\\ Support/SIMBL/Plugins";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		652126701A7426E100A608D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -166,6 +183,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -180,7 +198,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -215,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -227,6 +245,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = RadonChrome/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prestonmueller.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RadonChrome;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
@@ -239,6 +258,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = RadonChrome/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prestonmueller.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RadonChrome;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;

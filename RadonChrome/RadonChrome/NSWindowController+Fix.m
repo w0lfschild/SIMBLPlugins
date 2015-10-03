@@ -13,9 +13,10 @@
 -(void)FIXshowWindow:(id)sender {
     
     if(![NSStringFromClass([self class]) isEqualToString:@"MCPopupController"])return [self FIXshowWindow:sender];
-
+    
     NSString *title = nil;
     NSString *text = nil;
+    NSImage *img = nil;
     
     NSArray *subviews = [[[self window] contentView] subviews];
     for(NSView *view in subviews) {
@@ -25,6 +26,15 @@
                 if([NSStringFromClass([popupSubview class]) isEqualToString:@"NSTextView"]) {
                     if(title == nil)title = [(NSTextView *)popupSubview string];
                     else if(text == nil)text = [(NSTextView *)popupSubview string];
+                } else if([NSStringFromClass([popupSubview class]) isEqualToString:@"AccessibilityIgnoredBox"]) {
+                    if([[popupSubview subviews] count] > 0) {
+                        NSView * imageView = [popupSubview subviews][0];
+                        if([NSStringFromClass([imageView class]) isEqualToString:@"NSImageView"]) {
+                            if(img == nil) {
+                                img = [(NSImageView*)imageView image];
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -41,7 +51,11 @@
     notification.informativeText = text;
     notification.soundName = NSUserNotificationDefaultSoundName;
     notification.userInfo = @{@"uuid" : thisUUID};
-
+    if(img != nil) {
+        [notification setValue:img forKey:@"_identityImage"];
+        [notification setValue:@(NO) forKey:@"_identityImageHasBorder"];
+    }
+    
     
     [[NSUserNotificationCenter defaultUserNotificationCenter] setDelegate:singleton];
     [[NSUserNotificationCenter defaultUserNotificationCenter] deliverNotification:notification];
