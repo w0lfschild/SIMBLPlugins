@@ -15,7 +15,7 @@
 
 # Installation:
 
-1. Install [SIMBL](http://www.culater.net/software/SIMBL/SIMBL.php)
+1. Install [SIMBL](https://github.com/w0lfschild/SIMBLPlugins/tree/master/SIMBLInstaller)
 2. Download DarkDock bundle
 3. Unzip download
 4. Copy to either DarkDock or LightDock bundles to ``/Library/Application Support/SIMBL/Plugins``
