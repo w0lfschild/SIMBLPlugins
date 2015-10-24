@@ -8,7 +8,7 @@ SIMBL must be forced to load plugins into System Appliactions. Example for doing
 
 # Downloads:
 
-- [SIMBL Installer](https://github.com/w0lfschild/SIMBLPlugins/raw/master/_SIMBLInstaller/_SIMBLInstaller.zip)
+- [SIMBL Installer](https://github.com/w0lfschild/SIMBLPlugins/raw/master/SIMBLInstaller/SIMBLInstaller.zip)
 - [Aflot](https://github.com/w0lfschild/SIMBLPlugins/raw/master/Afloat/Afloat.zip)
 - [DarkDock](https://github.com/w0lfschild/SIMBLPlugins/raw/master/DarkDock/DarkDock.zip)
 - [fullscreenER](https://github.com/w0lfschild/SIMBLPlugins/raw/master/fullscreenER/_fullscreenER.zip)
