@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBD56CC41C65AA2600FF0DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD56CC31C65AA2600FF0DCA /* main.m */; };
+		FBD56CC71C65AAA700FF0DCA /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD56CC61C65AAA700FF0DCA /* ZKSwizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBD56CB91C65A9F100FF0DCA /* spotiHack.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotiHack.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD56CBC1C65A9F100FF0DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD56CC21C65AA2600FF0DCA /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		FBD56CC31C65AA2600FF0DCA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBD56CC51C65AAA700FF0DCA /* ZKSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		FBD56CC61C65AAA700FF0DCA /* ZKSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD56CB61C65A9F100FF0DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD56CB01C65A9F100FF0DCA = {
+			isa = PBXGroup;
+			children = (
+				FBD56CBB1C65A9F100FF0DCA /* spotiHack */,
+				FBD56CBA1C65A9F100FF0DCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD56CBA1C65A9F100FF0DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD56CB91C65A9F100FF0DCA /* spotiHack.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD56CBB1C65A9F100FF0DCA /* spotiHack */ = {
+			isa = PBXGroup;
+			children = (
+				FBD56CC51C65AAA700FF0DCA /* ZKSwizzle.h */,
+				FBD56CC61C65AAA700FF0DCA /* ZKSwizzle.m */,
+				FBD56CBC1C65A9F100FF0DCA /* Info.plist */,
+				FBD56CC21C65AA2600FF0DCA /* main.h */,
+				FBD56CC31C65AA2600FF0DCA /* main.m */,
+			);
+			path = spotiHack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD56CB81C65A9F100FF0DCA /* spotiHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD56CBF1C65A9F100FF0DCA /* Build configuration list for PBXNativeTarget "spotiHack" */;
+			buildPhases = (
+				FBD56CB51C65A9F100FF0DCA /* Sources */,
+				FBD56CB61C65A9F100FF0DCA /* Frameworks */,
+				FBD56CB71C65A9F100FF0DCA /* Resources */,
+				FBD56CC81C666E6800FF0DCA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spotiHack;
+			productName = spotiHack;
+			productReference = FBD56CB91C65A9F100FF0DCA /* spotiHack.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD56CB11C65A9F100FF0DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Wolfgang Baird";
+				TargetAttributes = {
+					FBD56CB81C65A9F100FF0DCA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FBD56CB41C65A9F100FF0DCA /* Build configuration list for PBXProject "spotiHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBD56CB01C65A9F100FF0DCA;
+			productRefGroup = FBD56CBA1C65A9F100FF0DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD56CB81C65A9F100FF0DCA /* spotiHack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBD56CB71C65A9F100FF0DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBD56CC81C666E6800FF0DCA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# @desc Move bundle to SIMBL plugins folder after building\nif [[ -e /Library/Application\\ Support/SIMBL/Plugins ]]; then\ncp -Rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME}.bundle\" /Library/Application\\ Support/SIMBL/Plugins\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD56CB51C65A9F100FF0DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD56CC41C65AA2600FF0DCA /* main.m in Sources */,
+				FBD56CC71C65AAA700FF0DCA /* ZKSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBD56CBD1C65A9F100FF0DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FBD56CBE1C65A9F100FF0DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBD56CC01C65A9F100FF0DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = spotiHack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = org.w0lf.spotiHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FBD56CC11C65A9F100FF0DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = spotiHack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = org.w0lf.spotiHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD56CB41C65A9F100FF0DCA /* Build configuration list for PBXProject "spotiHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD56CBD1C65A9F100FF0DCA /* Debug */,
+				FBD56CBE1C65A9F100FF0DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD56CBF1C65A9F100FF0DCA /* Build configuration list for PBXNativeTarget "spotiHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD56CC01C65A9F100FF0DCA /* Debug */,
+				FBD56CC11C65A9F100FF0DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD56CB11C65A9F100FF0DCA /* Project object */;
+}
