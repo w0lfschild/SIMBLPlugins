@@ -1,15 +1,16 @@
 # This will no longer be updated
 
-Use [mySIMBL](https://github.com/w0lfschild/mySIMBL)
+Use [MacForge](https://github.com/w0lfschild/MacForge)
 
 # SIMBLPlugins:
 
-- A collection of SIMBL plugins. Some written by myself, some by others.      
-- SIMBL plugins can be managed with [mySIMBL](https://github.com/w0lfschild/mySIMBL)
+- A collection of MacForge plugins. Some written by myself, some by others.      
+- MacForge plugins can be managed with [MacForge](https://github.com/w0lfschild/MacForge)
 
 # Downloads:
 
-- mySIMBL_0.2.5 - [Download](https://github.com/w0lfschild/app_updates/raw/master/mySIMBL/mySIMBL_0.2.5.zip)    
+- MacForge - [Download](https://github.com/w0lfschild/app_updates/raw/master/MacForge/MacForge.zip)    
+
 - Afloat_2.3 - [Download](https://github.com/w0lfschild/wb_SIMBLPlugins/raw/master/bundles/Afloat_2.3.zip)    
 - BetterDictionary_0.992 - [Download](https://github.com/w0lfschild/wb_SIMBLPlugins/raw/master/bundles/BetterDictionary_0.992.zip)    
 - BlurFocus_1.0 - [Download](https://github.com/w0lfschild/wb_SIMBLPlugins/raw/master/bundles/BlurFocus_1.0.zip)    
